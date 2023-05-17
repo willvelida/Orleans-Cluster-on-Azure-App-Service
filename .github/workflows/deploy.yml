@@ -7,8 +7,8 @@ on:
 
 env:
   UNIQUE_APP_NAME: net7cart
-  AZURE_RESOURCE_GROUP_NAME: orleanscartrg
-  AZURE_RESOURCE_GROUP_LOCATION: westus
+  AZURE_RESOURCE_GROUP_NAME: rg-orleans-shopping-cart
+  AZURE_RESOURCE_GROUP_LOCATION: uksouth
 
 jobs:
   build-and-deploy:
