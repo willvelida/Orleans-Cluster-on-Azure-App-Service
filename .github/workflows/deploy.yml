@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  UNIQUE_APP_NAME: net7cart
+  UNIQUE_APP_NAME: wvshoppingcart
   AZURE_RESOURCE_GROUP_NAME: rg-orleans-shopping-cart
   AZURE_RESOURCE_GROUP_LOCATION: uksouth
 
