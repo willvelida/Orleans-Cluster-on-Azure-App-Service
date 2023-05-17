@@ -53,6 +53,7 @@ resource appService 'Microsoft.Web/sites@2021-03-01' = {
 
 resource stagingSlot 'Microsoft.Web/sites/slots@2022-03-01' = {
   name: '${appName}stg'
+  parent: appService
   location: location
   properties: {
     serverFarmId: appServicePlan.id
